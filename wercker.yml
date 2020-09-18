@@ -10,7 +10,7 @@ build:
           echo "Image changed ...is going to be built"
     - internal/docker-build:
        image-name: $IMAGE_BASE
-       dockerfile: Dockerfile1
+       dockerfile: Dockerfile11
 
     - internal/docker-push:
            repository: $REPONAME
